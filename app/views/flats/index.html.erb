@@ -1,0 +1,4 @@
+<h1>Flats</h1>
+<% @flats.each do |flat| %>
+  <p><%= flat.name %>, <%= flat.address %> for <%= flat.number_of_guests %> guests, at <%= flat.price_per_night %></p>
+<% end %>
